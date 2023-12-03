@@ -1,0 +1,60 @@
+body{
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-items: center;
+}
+.header{
+    text-align: center;
+    border: 1px solid;
+}
+
+.img-prof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#myPic{
+    width: 100px;
+    height: auto;
+    border: 1px solid;     
+}
+div{   
+    margin: 10px;
+}
+
+.container{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100vp;
+}
+.proj{
+    border: 1px solid;
+    text-align: center;
+}
+
+.footer{
+    border: 1px solid;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.footer>h3.hover{
+    font: red;
+}
+
+@media (max-width: 768px){
+    .container{
+        display: inline-block;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+}
+
